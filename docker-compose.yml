@@ -112,7 +112,7 @@ services:
     ports:
       - "8082:8080"
     volumes:
-      - ./dags:/usr/local/airflow/dags
+      - C:/Users/49176/batch_basierte_Datenarchitektur/dags:/usr/local/airflow/dags
     depends_on:
       - postgres
       - kafka
